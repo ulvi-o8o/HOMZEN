@@ -1,0 +1,93 @@
+{
+  "cards": [
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-1.jpg",
+      "cityName": "Dallas",
+      "properties": "263 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-2.jpg",
+      "cityName": "Atlanta",
+      "properties": "275 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-3.jpg",
+      "cityName": "Orlando",
+      "properties": "256 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-4.jpg",
+      "cityName": "Miami",
+      "properties": "312 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-5.jpg",
+      "cityName": "Houston",
+      "properties": "237 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-6.jpg",
+      "cityName": "Phoenix",
+      "properties": "221 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-7.jpg",
+      "cityName": "Seattle",
+      "properties": "188 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-8.jpg",
+      "cityName": "Denver",
+      "properties": "193 propertiies",
+      "button": "Explore now"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/location/lo-sm-9.jpg",
+      "cityName": "Austin",
+      "properties": "309 propertiies",
+      "button": "Explore now"
+    }
+  ],
+  "villasCard": [
+    {
+      "img": "https://themesflat.co/html/homzen/images/home/house-1.jpg",
+      "villasName": "Casa Lomas De Machalí Machas",
+      "address": "33 Maple Street, San Francisco, California",
+      "bedRoom": "3",
+      "bathRoom": "2",
+      "villaskv": "600SqFT",
+      "salePersonImg": "https://themesflat.co/html/homzen/images/avatar/avt-6.jpg",
+      "personName": "ARlene McCoy",
+      "price": "$7250,00/SqFT"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/home/house-1.jpg",
+      "villasName": "Casa Lomas De Machalí Machas",
+      "address": "33 Maple Street, San Francisco, California",
+      "bedRoom": "3",
+      "bathRoom": "2",
+      "villaskv": "600SqFT",
+      "salePersonImg": "https://themesflat.co/html/homzen/images/avatar/avt-6.jpg",
+      "personName": "ARlene McCoy",
+      "price": "$7250,00/SqFT"
+    },
+    {
+      "img": "https://themesflat.co/html/homzen/images/home/house-1.jpg",
+      "villasName": "Casa Lomas De Machalí Machas",
+      "address": "33 Maple Street, San Francisco, California",
+      "bedRoom": "3",
+      "bathRoom": "2",
+      "villaskv": "600SqFT",
+      "salePersonImg": "https://themesflat.co/html/homzen/images/avatar/avt-6.jpg",
+      "personName": "ARlene McCoy",
+      "price": "$7250,00/SqFT"
+    }
+  ]
+}

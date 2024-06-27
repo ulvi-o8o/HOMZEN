@@ -1,0 +1,741 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main {
+  width: 1348px;
+  height: 3050px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1348px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  box-sizing: border-box;
+}
+
+.header-up {
+  width: 1348px;
+  height: 54px;
+  background-color: #262626;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.envato {
+  width: 150px;
+  height: 20px;
+}
+
+.header-btn {
+  padding: 4px 16px;
+  background-color: #82b440;
+  color: white;
+}
+
+.header-down {
+  width: 1348px;
+  height: 80px;
+  background-color: white;
+  color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.header-down-left {
+  width: 174px;
+  height: 43px;
+  margin-left: 10px;
+}
+
+.header-down-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #161e2d;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 500ms ease;
+  cursor: pointer;
+  padding: 27px 0px;
+}
+
+.header-down-middle ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.header-down-middle ul li {
+  margin-left: 30px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.home {
+  border-bottom: 2px solid #ed2027;
+  color: #161e2d;
+  text-decoration: none;
+}
+
+.homepages {
+  display: none;
+}
+
+.header-down-right {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sbmt {
+  margin-top: 5%;
+}
+
+.login {
+  margin-top: 8%;
+  margin-right: 5%;
+  color: #161e2d;
+}
+
+.submit {
+  width: 166px;
+  height: 48px;
+  display: inline-block;
+  background-color: #ed2027;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ed2027;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.header-down-right ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.slider {
+  width: 1349px;
+  height: 757px;
+  display: flex;
+  flex-direction: row;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("https://themesflat.co/html/homzen/images/slider/slider-3.jpg");
+}
+
+.slider-left {
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+}
+
+.indulge {
+  margin-top: 280px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #161e2d;
+}
+
+.indulg {
+  font-size: 50px;
+  font-weight: 600;
+  color: #161e2d;
+}
+
+.slider-left p {
+  margin-top: 8px;
+  color: #5c6368;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.contact-btn {
+  width: 166px;
+  height: 48px;
+  display: inline-block;
+  background-color: #ed2027;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ed2027;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.margin-100 {
+  margin-top: 200px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.form div ul {
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.forRent {
+  width: 150px;
+  height: 56px;
+  background-color: white;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 15px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.form div ul:first-child {
+  margin-left: -32px;
+}
+
+.formList {
+  width: 410px;
+  height: 431px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: white;
+  margin-top: -16px;
+  gap: 10px;
+}
+
+.direction {
+  display: flex;
+  flex-direction: column;
+  padding: 42px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.formList input {
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px 16px;
+  padding-right: 40px;
+  border: 1px solid #80848a;
+}
+
+.color-text {
+  color: #161e2d;
+  text-decoration: none;
+}
+
+.color-white {
+  color: white;
+  text-decoration: none;
+}
+
+.color-btn {
+  color: #ed2027;
+}
+
+.search {
+  width: 330px;
+  height: 48px;
+  display: inline-block;
+  background-color: #ed2027;
+  color: white;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ed2027;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cities {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cities-up {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cities-up-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cities-up-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.cities-up-right a {
+  margin-top: 80px;
+  margin-left: 480px;
+}
+
+.cities-down {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.city-card {
+  width: 410px;
+  height: 153px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-left {
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.card-img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.card-right {
+  width: 50%;
+  height: 100%;
+  background-color: #f8f5f5;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+}
+
+.recommending {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommending-up {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommending-up h6 {
+  color: #ed2027;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.recommending-up h2 {
+  color: #161e2d;
+}
+
+.recommending-down {
+  width: 60%;
+  height: 40%;
+}
+
+.recommending-btn {
+  padding: 12px 24px;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+  color: #161e2d;
+  background-color: #f6f9fa;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.recommending ul {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.recommending-down ul li {
+  list-style-type: none;
+}
+
+.villas {
+  width: 100%;
+  height: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.villasCard {
+  width: 400px;
+  height: 500px;
+  border: 1px solid white;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.villasCardUp {
+  width: 440px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img-top {
+  width: 100%;
+  height: 32px;
+  left: 0;
+  top: 0;
+}
+
+.img-top div ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.featured {
+  padding: 2px 10px;
+  background-color: #82b440;
+  color: white;
+  border-radius: 8px;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.forSale {
+  padding: 2px 10px;
+  background-color: #80848a;
+  color: white;
+  border-radius: 8px;
+  list-style-type: none;
+}
+
+.villasCardMiddle {
+  width: 100%;
+  height: 133px;
+  margin-top: 30px;
+}
+
+.villasCardMiddle ul {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  list-style-type: none;
+}
+
+.villasCardDown {
+  width: 100%;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.villasCardDown div {
+  display: flex;
+  flex-direction: row;
+}
+
+.villasCardDown img {
+  border-radius: 50%;
+}
+
+.prop {
+  display: flex;
+  justify-content: center;
+}
+
+.properties-btn {
+  padding: 8px 16px;
+  background-color: #ed2027;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.searchingFor {
+  width: 100%;
+  height: 550px;
+  background-color: #161e2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.searchIcon {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(105, 101, 101);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searching-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-card {
+  width: 226px;
+  height: 210px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #80848a;
+}
+
+.services {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesTitle span {
+  color: #ed2027;
+}
+
+.servicesCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.servicesCard {
+  width: 410px;
+  height: 354px;
+  background-color: #d5d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.servicesCardIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.servicesCardDown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.servicesCardDown button {
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.team {
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff1f1;
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+}
+
+.agents {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.teamCard {
+  width: 620px;
+  height: 320px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.teamCardRight {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.teamCardRight button {
+  background-color: #ed2027;
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #ed2027;
+}
+
+.estateCardContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.estateCardImg {
+  width: 300px;
+  height: 450px;
+  border-radius: 16px;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: #262626;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.footer-top {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-top-left {
+  width: 40%;
+  height: 120px;
+}
+
+.footer-top-img {
+  width: 175px;
+  height: 44px;
+}
+
+.footer-top-right span {
+  color: white;
+}
+
+.footer-top-right ul {
+  width: 60%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-left: 400px;
+  color: white;
+  list-style-type: none;
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  color: white;
+}
+
+.footer-middle div ul li {
+  list-style-type: none;
+  color: #80848a;
+}
+
+.footer-bottom {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom div ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */
